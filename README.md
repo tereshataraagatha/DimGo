@@ -1,28 +1,28 @@
-# DimGo POS Application
+# 🥟 DimGo POS – Point of Sale untuk Dimsum & Es Teh
 
-## Overview
-A full-stack Point of Sale (POS) application for "DimGo" (Dimsum & Es Teh), built with **Flutter** (Frontend) and **PHP/MySQL** (Backend).
+**DimGo** adalah aplikasi dikembangkan khusus untuk usaha kuliner **DimGo**—spesialis dimsum dan es teh. Dibangun dengan **Flutter** di sisi frontend dan **PHP/MySQL** di backend, aplikasi ini menyediakan solusi terpadu untuk transaksi cepat, manajemen inventaris real-time, pemantauan stok, serta pelaporan penjualan harian. Dirancang dengan antarmuka yang intuitif dan performa andal, DimGo POS membantu pelaku UMKM kuliner mengelola operasional toko secara efisien, akurat, dan modern.
 
-## Features
--   **Dashboard**: Overview of stock value, total products, and low stock alerts.
--   **POS System**: Cart functionality, product search, and transaction processing.
--   **Inventory Management**: Add, Update, and Delete products.
--   **Reports**: View transaction history.
+---
 
-## Getting Started
+## 🌟 Fitur Utama
 
-### 1. Backend Setup
-1. Copy the contents of `backend_files/` (or `scratch/dimgo_backend`) to your XAMPP `htdocs/dimgo_backend` directory.
-   2. Import `database.sql` into your MySQL server (create database `dimgo_db`).
-3. Verify connection at `http://localhost/dimgo_backend/connect.php`.
+- **Dashboard Real-Time**  
+  - Ringkasan nilai stok total  
+  - Jumlah produk tersedia  
+  - Notifikasi stok menipis (low stock alert)
 
-### 2. Mobile App Setup
-1. Open this project in Android Studio.
-2. Run `flutter pub get`.
-3. Configure `API_URL` in `lib/services/api_service.dart` if testing on a real device (default is `10.0.2.2` for Emulator).
-4. Run on Android Emulator.
+- **Sistem POS Cepat & Intuitif**  
+  - Pencarian produk instan  
+  - Keranjang belanja dinamis  
+  - Proses transaksi dengan total otomatis
 
-## Technologies
--   **Flutter**: UI, Provider (State Mgmt), HTTP.
--   **PHP**: Native API endpoints.
--   **MySQL**: Relational database.
+- **Manajemen Inventaris**  
+  - Tambah, edit, dan hapus produk  
+  - Update stok real-time setelah transaksi  
+  - Validasi input data produk
+
+- **Laporan Penjualan**  
+  - Riwayat transaksi lengkap (tanggal, produk, jumlah, total)  
+  - Data siap ekspor atau analisis lebih lanjut
+
+---
